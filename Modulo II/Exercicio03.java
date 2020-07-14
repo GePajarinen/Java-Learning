@@ -4,4 +4,18 @@
  */
 public class Exercicio03 {
     
+    public static void main(String[] args) {
+        
+        int num, quadrado;
+
+        do{System.out.println("Digite um número: ");
+        num = Integer.parseInt(System.console().readLine());  
+        quadrado = (int) Math.pow(num, 2);
+        System.out.printf("O quadrado número %d é: %d\n", num, quadrado);
+        System.out.println();
+
+    }
+        while(num > 0);
+
+    }
 }
