@@ -7,5 +7,24 @@
  */
 
 public class Exercicio05 {
-    
+    public static void main(String[] args) {
+        double litros, distancia, media, totalDistancia=0.0, totalLitros=0.0;
+        int viagens;
+
+        System.out.println("Digite a quantidade de viagens: ");
+        viagens = Integer.parseInt(System.console().readLine());
+
+        for (int i = 1; i <= viagens; i++){
+            System.out.println("Digite a quantidade de combustível em litros: ");
+            litros = Double.parseDouble(System.console().readLine());
+            totalLitros += litros;
+
+            System.out.println("e a distância em Km: ");
+            distancia = Double.parseDouble(System.console().readLine());
+            totalDistancia += distancia;
+        }
+
+        media = totalDistancia / totalLitros;
+        System.out.printf("A média de quilômetros por litro é: %.2f Km/L \n", media);
+    }
 }
