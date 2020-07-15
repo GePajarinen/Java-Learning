@@ -1,4 +1,5 @@
 /**
+ * EXERCÍCIO 05
  * Crie um programa para ler a quantidade de litros de combustível e a 
  * distância percorrida por um carro em várias viagens. O programa deve 
  * calcular o consumo médio do carro, que é igual a média de quilômetros por 

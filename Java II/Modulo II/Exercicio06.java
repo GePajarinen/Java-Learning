@@ -1,5 +1,5 @@
-
 /**
+ * EXERCÍCIO 06
  * Para cada uma das mercadorias com que um armazém trabalha dispõe- se 
  * dos seguintes dados:
 − o nome da mercadoria;

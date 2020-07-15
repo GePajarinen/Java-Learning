@@ -1,4 +1,5 @@
 /**
+ * EXERCÍCIO 02
  * Faça um programa que calcule o somatório, a soma dos quadrados 
  * e a média entre os n primeiros números inteiros positivos.
  * (Muito consuso, mas vou criar algo)
