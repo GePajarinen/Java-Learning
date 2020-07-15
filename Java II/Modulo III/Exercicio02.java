@@ -1,4 +1,5 @@
 /**
+ * EXERCÍCIO 02
  * O Detran deseja realizar uma vistoria geral nos veículos do estado. Para isso, elaborou 
  * a seguinte distribuição, a partir do último dígito do número na placa do automóvel:
  * 
