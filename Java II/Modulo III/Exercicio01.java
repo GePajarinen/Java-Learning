@@ -56,6 +56,7 @@ public class Exercicio01 {
                 break;
             
             default:
+                System.out.println("A data do mês está incorreta.");
                 break;
         }
     }
