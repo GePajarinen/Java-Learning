@@ -2,8 +2,7 @@
  * EXERCÍCIO 05
  * 3 a 7. Refaça os exercícios 1, 2, 5, 6, 7 do caderno de exercícios 
  * do módulo anterior utilizando as estruturas for.
- */
-**
+ *
  * EXERCÍCIO 05
  * Crie um programa para ler a quantidade de litros de combustível e a 
  * distância percorrida por um carro em várias viagens. O programa deve 

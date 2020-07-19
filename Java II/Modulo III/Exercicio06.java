@@ -42,7 +42,3 @@ public class Exercicio06 {
     }
     
 }
-
-public class Exercicio06 {
-    
-}
