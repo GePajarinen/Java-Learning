@@ -1,5 +1,5 @@
 # Learning-Java
-IFRS - Programação Básica com Java II - Turma 2020A 
+IFRS - Programação Básica com Java I, II e III - Turma 2020A 
 
 ## JAVA I
 1. Conceitos Fundamentais   
