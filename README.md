@@ -25,4 +25,5 @@ IFRS - Programação Básica com Java II - Turma 2020A
 - [ ] Caderno de Exercícios 
 3. Matrizes   
 - [ ] Caderno de Exercícios 
-4. Procedimentos, funções e métodos
+4. Procedimentos, funções e métodos   
+- [ ] Caderno de Exercícios
