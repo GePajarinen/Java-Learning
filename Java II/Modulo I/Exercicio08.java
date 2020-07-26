@@ -1,12 +1,11 @@
-/**
- * EXERCÍCIO 08
+/* EXERCÍCIO 08
  * Faça um programa que leia três valores numéricos inteiros, 
  * identifique e apresente o menor valor informado.
  */
 
 
 public class Exercicio08 {
-    public static void main (String[] args){
+    public static void main (final String[] args) {
 
         int num1, num2, num3;
 
