@@ -38,7 +38,7 @@ Finalize digitando idade igual a zero.
 [Resolução no Repl.it](https://repl.it/@Gesiane/Exercicio-04-III-JavaII#Main.java)   
 
 **EXERCÍCIO 05**   
-3 a 7. Refaça os exercícios 1, 2, 5, 6, 7 do caderno de exercícios do módulo anterior utilizando as estruturas for.
+3 a 7. Refaça os exercícios 1, 2, 5, 6, 7 do caderno de exercícios do módulo anterior utilizando as estruturas for.   
 EXERCÍCIO 05: Crie um programa para ler a quantidade de litros de combustível e a distância percorrida por um carro em várias viagens. O programa deve calcular o consumo médio do carro, que é igual a média de quilômetros por litro de todas as viagens. O número de viagens realizado deve ser informado pelo usuário.   
 
 [Resolução no Repl.it](https://repl.it/@Gesiane/Exercicio-05-III-JavaII#Main.java)   
@@ -75,7 +75,7 @@ A série de Fibonacci é formada pela seguinte sequência: 1, 1, 2, 3, 5, 8, 
 Faça um programa que mostre o menu de opções a seguir, receba a opção digitada pelo usuário e os dados necessários para executar cada operação. Note que dependendo da opção escolhida pelo usuário, um conjunto de instruções diferente será executado. DICA: utilize as estruturas escolha e switch para executar conjuntos de instruções diferentes, dependendo da opção escolhida pelo usuário.   
   Menu de opções:   
   1. Somar dois números.    
-  2. Número ao quadrado.   
+  2. Número ao quadrado.     
   Digite a opção desejada   
   
 [Resolução no Repl.it](https://repl.it/@Gesiane/Exercicio-10-III-JavaII#Main.java)   
