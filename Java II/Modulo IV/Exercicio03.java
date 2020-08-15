@@ -12,11 +12,12 @@ public class Exercicio03 {
   
     System.out.print("Digite o número binário:\n ");
 
-    Scanner sc = new Scanner( System.in );
+    Scanner sc = new Scanner( System.in ); // !!!!!!!! Entrada de Strings
     
-    String num_binario = sc.nextLine();
+    String num_binario = sc.nextLine(); // !!!!!!!! Entrada de Strings
     
-    System.out.println("O número em Decimal é: "+ Integer.parseInt(num_binario,2));
+    System.out.println("O número em Decimal é: "+ Integer.parseInt(num_binario,2)); //Integer.parseInt(num_binario,2) > o que converte pra BINARIO
+    
   }
   
 }
