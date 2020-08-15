@@ -1,9 +1,9 @@
-EXERCÍCIO 01   
+**EXERCÍCIO 01**   
 Faça um programa que leia dois valores numéricos inteiros e apresente o resultado da diferença do maior valor pelo menor valor. Se os valores forem iguais, o programa deve mostrar zero.
 
 [Resolução no Relp.it](https://repl.it/@Gesiane/Exercicio-01-I-JavaII)
 
-EXERCÍCIO 02   
+**EXERCÍCIO 02**   
 Faça um programa que leia um valor numérico inteiro. 
 O programa deve apresentar a mensagem “O valor está na faixa permitida”, caso o valor informado esteja entre 1 e 9. Se o valor estiver fora da faixa, o programa deve apresentar a mensagem “O valor está fora da faixa permitida”.
 
