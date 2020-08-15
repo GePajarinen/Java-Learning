@@ -12,6 +12,11 @@ public class Exercicio03 {
         do{System.out.println("Digite um número: ");
         num = Integer.parseInt(System.console().readLine());  
         quadrado = (int) Math.pow(num, 2);
+        
+        if (num <0){
+            break;
+        }
+        
         System.out.printf("O quadrado número %d é: %d\n", num, quadrado);
         System.out.println();
 
