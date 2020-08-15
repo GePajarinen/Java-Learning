@@ -14,7 +14,7 @@ IFRS - Programação Básica com Java I, II e III - Turma 2020A
 2. Estruturas de repetição   
 - [x] Caderno de Exercícios   
 3. Outras estruturas de controle  
-- [ ] Caderno de Exercícios   
+- [X] Caderno de Exercícios   
 4. Outras ferramentas da linguagem Java
 - [ ] Caderno de Exercícios   
 
