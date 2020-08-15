@@ -40,6 +40,7 @@ O faturamento total do armazém será calculado somando-se o total faturado po
 
 **EXERCÍCIO 07**   
 Faça um programa que apresente os quadrados dos números inteiros de 15 a 200.    
+
 [Resolução no Repl.it](https://repl.it/@Gesiane/Exercicio-07-II-JavaII#Main.java)  
 
 
