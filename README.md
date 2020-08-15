@@ -10,7 +10,7 @@ IFRS - Programação Básica com Java I, II e III - Turma 2020A
 
 ## JAVA II
 1. Estruturas de decisão e seleção e repetição   
-- [X] Caderno de Exercícios   
+- [X] [Caderno de Exercícios](https://github.com/GePajarinen/Learning-Java/commit/b041a22c8207bda91c6662cc533bddef88457485)
 2. Estruturas de repetição   
 - [x] Caderno de Exercícios   
 3. Outras estruturas de controle  
