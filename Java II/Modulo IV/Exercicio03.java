@@ -16,7 +16,7 @@ public class Exercicio03 {
     
     String num_binario = sc.nextLine(); // !!!!!!!! Entrada de Strings
     
-    System.out.println("O número em Decimal é: "+ Integer.parseInt(num_binario,2)); //Integer.parseInt(num_binario,2) > o que converte pra BINARIO
+    System.out.println("O número em Decimal é: "+ Integer.parseInt(num_binario,2)); //Integer.parseInt("num_binario",2) >Str pra 2: binario, 10: decimal, 16: hexa, 27:??
     
   }
   
