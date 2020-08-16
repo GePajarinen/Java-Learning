@@ -58,7 +58,7 @@ O faturamento total do armazém será calculado somando-se o total faturado po
 3 a 7. Refaça os exercícios 1, 2, 5, 6, 7 do caderno de exercícios do módulo anterior utilizando a estrutura for.   
 EXERCÍCIO 07: Faça um programa que apresente os quadrados dos números inteiros de 15 a 200.   
 
-[Resolução no Repl.it](https://repl.it/@Gesiane/Exercicio-07-II-JavaIII#Main.java)   
+[Resolução no Repl.it](https://repl.it/@Gesiane/Exercicio-07-III-JavaII#Main.java)   
 
 **EXERCÍCIO 08**    
 Faça um programa, utilizando as estruturas repita e do..while que repita a leitura de uma senha até que o usuário digite o número 1234. 
