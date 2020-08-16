@@ -16,7 +16,7 @@ IFRS - Programação Básica com Java I, II e III - Turma 2020A
 3. Outras estruturas de controle  
 - [X] [Caderno de Exercícios](https://github.com/GePajarinen/Learning-Java/blob/master/Java%20II/Modulo%20III/README.md)   
 4. Outras ferramentas da linguagem Java
-- [ ] Caderno de Exercícios   
+- [ ] [Caderno de Exercícios](https://github.com/GePajarinen/Java-Learning/tree/master/Java%20II/Modulo%20IV)   
 
 ## JAVA III
 1. Integração de estruturas de controle   
