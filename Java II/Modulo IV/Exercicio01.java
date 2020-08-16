@@ -4,7 +4,7 @@ Escreva um programa em Java que calcule e mostre a raiz quadrada dos números d
 
 import java.lang.Math;
 
-class Main {
+class Exercicio01 {
   
   public static void main(String[] args) {
     int i = 1;
