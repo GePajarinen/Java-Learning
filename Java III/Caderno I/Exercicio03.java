@@ -1,5 +1,6 @@
 /*
-3. A empresa JS Recrutamento e Seleção Ltda. faz recrutamento e seleção de funcionários para várias empresas em diversos ramos de atuação. Para facilitar o trabalho de identificação do perfil dos candidatos que se inscrevem para as vagas, resolveu fazer um programa para registrar alguns dados para obter as informações a seguir:
+EXERCÍCIO 03
+A empresa JS Recrutamento e Seleção Ltda. faz recrutamento e seleção de funcionários para várias empresas em diversos ramos de atuação. Para facilitar o trabalho de identificação do perfil dos candidatos que se inscrevem para as vagas, resolveu fazer um programa para registrar alguns dados para obter as informações a seguir:
 a. número de candidatos do sexo feminino;
 b. número de candidatos do sexo masculino;
 c. idade média dos homens;
