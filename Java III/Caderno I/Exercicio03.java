@@ -38,31 +38,19 @@ class Candidato{
     
   }
 
-
-  float media_id_homens = (float) sum_id_homens / homens; 
-  float media_id_mulheres_exp = (float)sum_id_mulheres_exp / mulheres;
-
   void printInfo(){
-    System.out.println("Número de candidatos do sexo feminino = " + mulheres);
-    System.out.println("Número de candidatos do sexo masculino = " + homens);
-    System.out.println("Idade média dos homens = " + media_id_homens); 
-    System.out.println("Idade média das mulheres com experiência = " + media_id_mulheres_exp);
+
+    float media_id_homens = (float) sum_id_homens/homens; 
+    float media_id_mulheres_exp = (float) sum_id_mulheres_exp/mulheres;
+
+    System.out.println("a. Número de candidatos do sexo feminino = " + mulheres);
+    System.out.println("b. Número de candidatos do sexo masculino = " + homens);
+    System.out.println("c. Idade média dos homens = " + media_id_homens); 
+    System.out.println("d. Idade média das mulheres com experiência = " + media_id_mulheres_exp);
     }
-
-  
-
-
-  
-  
-
 }
 
-
-    
-
-
 class Main {
-
 
   public static void main(String[] args) {
     
@@ -88,6 +76,6 @@ class Main {
       while(Character.toString(resposta).equals("S"));
 
       c.printInfo();
-
+  
   }
 }
