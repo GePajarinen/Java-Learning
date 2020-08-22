@@ -13,21 +13,22 @@ Faça um programa para calcular as informações solicitadas anteriormente, s
 */
 
 class Candidato{
-  String nome;
-  char sexo;
-  int mulheres=0, homens=0, idade;
-  float sum_id_homens, sum_id_mulheres_exp, anos_expe;
+
+  int mulheres, homens, sum_id_homens, sum_id_mulheres_exp;
     
   public void cadastrando(String n, int i, char s, float ae){
-    nome = n;
-    idade = i;
-    sexo = s;
-    anos_expe = ae;
+    String nome = n;
+    int idade = i;
+    char sexo = s;
+    float anos_expe = ae;
 
     if (Character.toString(sexo).equals("F")){
       mulheres ++;
       if(anos_expe > 0){
         sum_id_mulheres_exp += idade;
+      }
+      else{
+        sum_id_mulheres_exp = sum_id_mulheres_exp;
       }
     }
     else{
@@ -36,21 +37,29 @@ class Candidato{
     }
     
   }
+
+
+  float media_id_homens = (float) sum_id_homens / homens; 
+  float media_id_mulheres_exp = (float)sum_id_mulheres_exp / mulheres;
+
+  void printInfo(){
+    System.out.println("Número de candidatos do sexo feminino = " + mulheres);
+    System.out.println("Número de candidatos do sexo masculino = " + homens);
+    System.out.println("Idade média dos homens = " + media_id_homens); 
+    System.out.println("Idade média das mulheres com experiência = " + media_id_mulheres_exp);
+    }
+
   
-  /*public String getInfoCandidatos(){
 
-    float media_id_homens = sum_id_homens / homens;
-    float media_id_mulheres_exp = sum_id_mulheres_exp / mulheres;
 
-    //System.out.println("Número de candidatos do sexo feminino = " + mulheres);
-      //System.out.println("Número de candidatos do sexo masculino = " + homens);
-      //System.out.println("Idade média dos homens = " + media_id_homens); 
-      //System.out.println("Idade média das mulheres com experiência = " + media_id_mulheres_exp);
-      //System.out.println("ok");
-  }*/
-    
+  
+  
 
 }
+
+
+    
+
 
 class Main {
 
@@ -59,6 +68,7 @@ class Main {
     
     Scanner sc = new Scanner(System.in);
     char resposta = 'S';
+    Candidato c = new Candidato();
 
     do{
       System.out.println("Nome do Candidato: ");
@@ -70,15 +80,14 @@ class Main {
       System.out.println("Anos de experiência: ");
       float exp = sc.nextFloat();
       
-      Candidato c1 = new Candidato();
-      c1.cadastrando( nome, idade, sexo, exp);
+      c.cadastrando( nome, idade, sexo, exp);
       System.out.println("Deseja cadastrar outro candidato? S ou N ");
       
       resposta = Character.toUpperCase(sc.next().charAt(0));
     }
       while(Character.toString(resposta).equals("S"));
-    
 
+      c.printInfo();
 
   }
 }
