@@ -25,7 +25,7 @@ import java.math.*;
 import java.text.DecimalFormat;
 
 
-class Main {
+class Exercicio04 {
   
   private static DecimalFormat df = new DecimalFormat("0.00");
   
