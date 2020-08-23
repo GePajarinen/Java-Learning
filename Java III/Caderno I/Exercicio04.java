@@ -19,3 +19,47 @@ De acordo com as informações disponíveis no site da Receita Federal, a tab
       De 1.693,73 até 2.822,90| |       9%
       Acima de 2.822,90         |       11%
   */
+
+import java.io.*;
+import java.math.*;
+import java.text.DecimalFormat;
+
+
+class Cadastro{
+  int id;
+  float salario;
+
+  void cadastrando(int i, float s){
+    id = i;
+    salario = s;
+  }
+
+}
+
+class Main {
+  
+  private static DecimalFormat df = new DecimalFormat("0.00");
+  
+
+  public static void main(String[] args) {
+    float tt_salarios=0;
+
+    //Creating 58 random salaries:
+    for(int i=1; i<=8; i++){
+      
+      df.setRoundingMode(RoundingMode.DOWN);
+      float salario = Float.parseFloat(df.format(1200.00 + (Math.random() * 3000.00)));
+
+      System.out.println(salario);
+    
+      Cadastro c = new Cadastro();
+      c.cadastrando(i, salario);
+
+      tt_salarios+=salario;
+      
+    }
+
+    System.out.println("Valor total da folha de pagamento" + tt_salarios);
+    
+  }
+}
