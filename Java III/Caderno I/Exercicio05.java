@@ -20,7 +20,7 @@ A cada iteração deverá ser perguntado ao usuário se deseja continuar ou 
 
 import java.util.*;
 
-class Main {
+class Exercicio05 {
   
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -65,9 +65,22 @@ class Main {
     }
     while(continuar.equals("S"));
 
+    System.out.println("\n************* RESULTADOS *************\n" );
 
+    media_idade = (float) idade/(mulheres+homens);
+    System.out.println("A média da idade: " + media_idade + " anos.");
 
+    media_peso = peso/(mulheres+homens);
+    System.out.println("A média do peso: " + media_peso + "kg.");
 
+    media_altura = altura/(mulheres+homens);
+    System.out.println("A média da altura: " + media_altura +"m.");
+
+    System.out.println("A porcentagem de pessoas do sexo feminino: " + (float)(mulheres*100)/(mulheres+homens)+ "%.");
+
+    System.out.println("A porcentagem de pessoas do sexo masculino: " + (float)(homens*100)/(mulheres+homens) + "%.");
+
+    System.out.println("Número de pessoas de olhos azuis e cabelos ruivos: "+  azul_ruivo);
 
   }
 }
