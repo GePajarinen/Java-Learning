@@ -7,6 +7,67 @@
 - idade;
 - altura;
 - peso.
-Escreva um programa que leia essas informações para cada pessoa e apresente a média da idade dos participantes, a média do peso e da altura de seus habitantes, a porcentagem de pessoas do sexo feminino, a porcentagem de pessoas do sexo masculino e quantas pessoas possuem olhos azuis e cabelos ruivos. A cada iteração deverá ser perguntado ao usuário se deseja continuar ou não. Os resultados deverão ser mostrados apenas quando o usuário não desejar mais inserir dados.
+Escreva um programa que leia essas informações para cada pessoa e apresente:
+- a média da idade dos participantes, 
+- a média do peso 
+- e da altura de seus habitantes, 
+- a porcentagem de pessoas do sexo feminino, 
+- a porcentagem de pessoas do sexo masculino 
+- e quantas pessoas possuem olhos azuis e cabelos ruivos. 
+A cada iteração deverá ser perguntado ao usuário se deseja continuar ou não. Os resultados deverão ser mostrados apenas quando o usuário não desejar mais inserir dados.
+*/
 
- */
+
+import java.util.*;
+
+class Main {
+  
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+      
+    int idade=0, mulheres=0, homens=0, azul_ruivo=0;
+    float altura=0, peso=0, media_idade, media_peso, media_altura;
+    String continuar = "s";
+
+    do{
+      System.out.println("Digite o sexo: F ou M ");
+      String sexo = Character.toString(Character.toUpperCase(sc.next().charAt(0)));
+        if(sexo.equals("F")){
+          mulheres ++;
+        }else{
+          homens++;
+        }
+      
+      System.out.println("Cor dos olhos: \n 1 – azuis \n 2 – verdes \n 3 – castanhos");
+      if (sc.nextInt() == 1){
+          System.out.println("Cor dos cabelos: \n L – louros\n C – castanhos\n P – pretos\n R - ruivos");
+          if(Character.toString(Character.toUpperCase(sc.next().charAt(0))).equals("R")){
+            azul_ruivo++;
+          }
+      }
+      else{
+        System.out.println("Cor dos cabelos: \n L – louros\n C – castanhos\n P – pretos\n R - ruivos");
+        String cor = Character.toString(Character.toUpperCase(sc.next().charAt(0)));
+      }
+
+      System.out.println("Idade: ");
+      idade += sc.nextInt();
+
+      System.out.println("Altura: ");
+      altura += sc.nextFloat();
+
+      System.out.println("Peso: ");
+      peso += sc.nextFloat();
+
+      System.out.println("Deseja cadastrar outra pessoa? 'S' ou 'N': ");
+      continuar = Character.toString(Character.toUpperCase(sc.next().charAt(0)));
+
+    }
+    while(continuar.equals("S"));
+
+
+
+
+
+  }
+}
