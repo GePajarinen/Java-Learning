@@ -25,17 +25,6 @@ import java.math.*;
 import java.text.DecimalFormat;
 
 
-class Cadastro{
-  int id;
-  float salario;
-
-  void cadastrando(int i, float s){
-    id = i;
-    salario = s;
-  }
-
-}
-
 class Main {
   
   private static DecimalFormat df = new DecimalFormat("0.00");
@@ -43,23 +32,59 @@ class Main {
 
   public static void main(String[] args) {
     float tt_salarios=0;
+    
 
     //Creating 58 random salaries:
     for(int i=1; i<=8; i++){
       
       df.setRoundingMode(RoundingMode.DOWN);
       float salario = Float.parseFloat(df.format(1200.00 + (Math.random() * 3000.00)));
+  
 
-      System.out.println(salario);
-    
-      Cadastro c = new Cadastro();
-      c.cadastrando(i, salario);
+      tt_salarios +=salario;
 
-      tt_salarios+=salario;
+      float liquido_sal, ir=1, inss=1;
+
+      // IR
+      if (salario <= 1903.98){
+        ir = 0;
+      }
+      if (salario > 1903.98 && salario <= 2826.65){
+        ir = (float)(salario*7.5)/100;
+      }
+      if (salario > 2826.65 && salario <=3751.05){
+        ir = (float)(salario*15)/100;
+      }
+      if (salario > 3751.05 && salario <= 4664.68 ){
+        ir = (float)(salario*22.5)/100;
+      }
+      if (salario > 4664.68){
+        ir = (float)(salario*27.5)/100;
+      }
       
+      //INSS
+      if (salario <= 1903.98){
+        inss = 0;
+      }
+      if (salario > 1693.72 && salario <= 2822.9){
+        inss = (salario*9)/100;
+      }
+      if (salario > 2822.9){
+        inss = (salario*11)/100;
+      }
+      
+      liquido_sal = salario - ir - inss;
+
+      System.out.println("Salário bruto: " + salario);
+      System.out.println("IR : " + ir);
+      System.out.println("INSS : " + inss);
+      System.out.println("Salário líquido: " + liquido_sal);
+      System.out.println("\n");
+      
+    
     }
 
-    System.out.println("Valor total da folha de pagamento" + tt_salarios);
+    System.out.println("Valor total da folha de pagamento: " + tt_salarios);
     
   }
 }
