@@ -29,13 +29,12 @@ class Main {
   
   private static DecimalFormat df = new DecimalFormat("0.00");
   
-
   public static void main(String[] args) {
-    float tt_salarios=0;
+    float tt_salarios=0, tt_ir=0;
     
 
     //Creating 58 random salaries:
-    for(int i=1; i<=8; i++){
+    for(int i=1; i<=58; i++){
       
       df.setRoundingMode(RoundingMode.DOWN);
       float salario = Float.parseFloat(df.format(1200.00 + (Math.random() * 3000.00)));
@@ -73,18 +72,21 @@ class Main {
         inss = (salario*11)/100;
       }
       
+      tt_ir += ir;
       liquido_sal = salario - ir - inss;
 
       System.out.println("Salário bruto: " + salario);
-      System.out.println("IR : " + ir);
-      System.out.println("INSS : " + inss);
-      System.out.println("Salário líquido: " + liquido_sal);
-      System.out.println("\n");
+      System.out.println("IR : " + df.format(ir));
+      System.out.println("INSS : " + df.format(inss));
+      System.out.println("Salário líquido: " + df.format(liquido_sal));
+      System.out.println();
       
     
     }
-
+    System.out.println("----------------------------------------------------------");
     System.out.println("Valor total da folha de pagamento: " + tt_salarios);
+
+     System.out.println("Total do imposto de renda que a empresa deverá recolher: " + df.format(tt_ir));
     
   }
 }
