@@ -12,7 +12,7 @@ Verifique a possibilidade de opção inválida, Neste caso, o programa devera
 */
 import java.util.*;
 
-class Main {
+class Exercicio07 {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner (System.in);
