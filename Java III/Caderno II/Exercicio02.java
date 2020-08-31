@@ -28,7 +28,9 @@ public class Exercicio02 {
     System.out.println("Digete o 5o número: ");
     num5 = sc.nextInt();
 
-    System.out.format("Os números digitados foram:\n %d + %d + %d + %d + %d = %d \n", num1, num2, num3, num4, num5, num1+num2+num3+num4+num5);
+    int ttl = num1+num2+num3+num4+num5;
+
+    System.out.format("Os números digitados foram:\n %d + %d + %d + %d + %d = %d \n", num1, num2, num3, num4, num5, ttl);
     
   }
  }
