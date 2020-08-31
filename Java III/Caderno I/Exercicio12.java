@@ -97,8 +97,6 @@ twelve drummers drumming,
      two turtle doves,
      and a partridge in a pear tree.
 */ 
-import java.util.HashMap;
-import java.util.Map;
 
 class Exercicio12{
      public static void main(String[] args) {
