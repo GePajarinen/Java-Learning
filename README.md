@@ -20,7 +20,7 @@ IFRS - Programação Básica com Java I, II e III - Turma 2020A
 
 ## JAVA III
 1. Integração de estruturas de controle   
-- [ ] Caderno de Exercícios 
+- [ ] [Caderno de Exercícios](https://github.com/GePajarinen/Java-Learning/blob/master/Java%20III/M%C3%B3dulo%20I/README.md)
 2. Vetores   
 - [ ] Caderno de Exercícios 
 3. Matrizes   
