@@ -52,7 +52,7 @@ De acordo com as informações disponíveis no site da Receita Federal, a tab
  |  Salário bruto (R$)        |    Alíquota (%) |
  |----------------------------|-----------------|
  |  Até 1.693,72              |       8%        |
- |  De 1.693,73 até 2.822,90| |       9%        |
+ |  De 1.693,73 até 2.822,90  |       9%        |
  |  Acima de 2.822,90         |       11%       |
 
 [Resolução no Relp.it](https://repl.it/@Gesiane/Exercicio-04-I-JavaIII#Main.java)   
@@ -73,6 +73,7 @@ Escreva um programa que leia essas informações para cada pessoa e apresente:
 - a porcentagem de pessoas do sexo feminino,    
 - a porcentagem de pessoas do sexo masculino    
 - e quantas pessoas possuem olhos azuis e cabelos ruivos.    
+
 A cada iteração deverá ser perguntado ao usuário se deseja continuar ou não.    
 Os resultados deverão ser mostrados apenas quando o usuário não desejar mais inserir dados.   
 
@@ -84,11 +85,11 @@ Ao final do programa, apresente a quantidade de alunos e a média de nota alcan
 
 |    Nota       |   Conceito  |
 |---------------|-------------|
-|De 0,0 a 2,9   |   E         |
-|De 3,0 a 4,9   |   D         |
-|De 5,0 a 6,9   |   C         |
-|De 7,0 a 8,9   |   B         |
-|De 9,0 a 10,0  |   A         |
+|De 0,0 a 2,9   |      E      |
+|De 3,0 a 4,9   |      D      |
+|De 5,0 a 6,9   |      C      |
+|De 7,0 a 8,9   |      B      |
+|De 9,0 a 10,0  |      A      |
 
 [Resolução no Relp.it](https://repl.it/@Gesiane/Exercicio-06-I-JavaIII#Main.java)   
 
@@ -158,11 +159,11 @@ Muitas canções populares são baseadas em padrões repetitivos.
 Logo é possível construir algoritmos que montem suas letras a partir desses padrões que se repetem.   
 Escreva um programa em Java que gere e mostre no terminal shell (console) a letra da popular canção norte-americana de Natal “The Twelve Days of Christmas” transcrita abaixo. Utilize estruturas de controle e não simplesmente um System.out.print ou println em toda a música.   
 '''   
-On the first day of Christmas, my love gave to me a partridge in a pear tree.   
+*On the first day of Christmas, my love gave to me a partridge in a pear tree.   
 On the second day of Christmas, my love gave to me two turtle doves,   
-         and a partridge in a pear tree.   
+and a partridge in a pear tree.   
 On the third day of Christmas, my love gave to me three french hens,   
-         two turtle doves,   
+two turtle doves,   
          and a partridge in a pear tree.   
 On the fourth day of Christmas, my love gave to me four calling birds,   
      three french hens,   
