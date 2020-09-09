@@ -236,7 +236,7 @@ On the twelfth day of Christmas, my love gave to me twelve drummers drumming,
      four calling birds,   
      three french hens,   
      two turtle doves,   
-     and a partridge in a pear tree.      
+     and a partridge in a pear tree.*      
      
 [Resolução no Relp.it](https://repl.it/@Gesiane/Exercicio-12-I-JavaIII#Main.java)   
 
